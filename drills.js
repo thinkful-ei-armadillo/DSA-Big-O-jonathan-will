@@ -58,15 +58,25 @@ O(n) - Linear run time complexity. For loop that iterates through each item once
 
 // 11. Tower of Hanoi
 
-let pegs = [[arr1], [arr2], [arr3]];
+let rodA = [];
+let rodB = [];
+let rodC = [];
 
-let disk1;
-let disk2;
-let disk3;
+let disk1 = 1;
+let disk2 = 2;
+let disk3 = 3;
+
 
 function towerOfHanoi() {
-  // insert algorithm here
+
 }
+
+// iterative approach: 
+// condition to make sure disks cant move if they have disk     on top of them
+// doesnt allow disks to go back to where it was previously
+// base case = when arr3 == initial value arr1
+// insert algorithm here
+// display each movement of the disk with a console.log?
 
 
 
